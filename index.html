@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Addition of Two Numbers</title>
+</head>
+<body>
+    
+        
+  <h1>Nabil`s Calculator</h1>
+    <div id="container">
+        <label for="txtNum1">Number 1:</label> <br/>
+        <input type="text" id="txtNum1" value="Enter Number Here"/> <br/>
+ 
+        <label for="txtNum2">Number 2:</label> <br/>
+        <input type="text" id="txtNum2" value="Enter Number Here"> <br/> <br/>
+
+        <label for="txtTotal">Total:</label> <br/>
+        <input type="text" id="txtTotal" value="0" disabled/> <br/>
+        
+        <input type="button" value="Add" onclick="add()">
+        <input type="button" value="Reset" onclick="reset()">
+        <input type="button" value="Subtract" onclick="subtract()">
+       
+    </div>
+    
+</body>
+<script type="text/javascript" src="./app.js"></script>
+</html>
